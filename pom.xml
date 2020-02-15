@@ -495,4 +495,16 @@
             </reporting>
         </profile>
     </profiles>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-8-118-releases</name>
+        <url>http://54.158.202.105:8081/artifactory/game-of-life-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-8-118-snapshots</name>
+        <url>http://54.158.202.105:8081/artifactory/game-of-life-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
