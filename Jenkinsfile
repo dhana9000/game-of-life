@@ -1,10 +1,6 @@
 pipeline
 {
     agent { label 'DOC' }
-    triggers 
-    {
-       upstream 'mvn artifactory'
-    }
     stages
     {
         stage('SCM')
