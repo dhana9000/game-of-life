@@ -484,17 +484,7 @@
                                 java.util.* -attributes -operations
                                 -enumerations -enumconstants
                             </additionalparam>
-                        </configuration>
-                    </plugin>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-jxr-plugin</artifactId>
-                        <version>2.1</version>
-                    </plugin>
-                </plugins>
-            </reporting>
-        </profile>
-    </profiles>
+
 <distributionManagement>
     <repository>
         <id>central</id>
@@ -507,4 +497,16 @@
         <url>http://54.158.202.105:8081/artifactory/game-of-life-local</url>
     </snapshotRepository>
 </distributionManagement>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-jxr-plugin</artifactId>
+                        <version>2.1</version>
+                    </plugin>
+                </plugins>
+            </reporting>
+        </profile>
+    </profiles>
+
 </project>
